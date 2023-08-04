@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+  }
+  section{
+    display: flex;
+    justify-content: space-between;
+  }
+h1 {
+    font-size: 400%;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: 100%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1100px;
+    font-size: 300%;
+    color: #ffffff;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: #fff;
+  }
+  .backgrpund{
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 300%;
+    background-color: black;
+  }
+  .bottom-left {
+    position: absolute;
+    top: 50%;
+    left: center;
+    
+    font-size: 100%;
+    color: #ffffff;
+  }
+
+  .layout {
+    flex: 1;
+    background-color: rgb(146, 145, 138);
+    padding: 80px;
+    text-align: left;
+
+      }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(7, 60, 73);
+    color: #fff;
+   font-size: 200%;
+  }
+  .about-me{
+    font-size: 300%;
+    position: relative;
+    background-color: rgb(255, 145, 0);
+  }
+  .work{
+    font-size: 300%;
+    position: relative;
+    background-color: rgb(255, 145, 0);
+  }
+  .resume{
+    font-size: 300%;
+    position: relative;
+    background-color: rgb(255, 145, 0)
+  }
+  .col{
+  background-color: rgb(255, 255, 255);
+}
