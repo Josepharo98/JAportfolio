@@ -1,73 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joseph Aro Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <h1>Joseph Aro</h1>
-      <nav>
-        <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact Me</a></li>
-          <li><a href="#">Resumé</a></li>
-        </ul>
-      </nav>
-    </header>
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Joseph Aro // Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
+<body>
+  <!-- main logo / nav -->
+  <header>
+    <h1>Joseph Aro</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+      <a href="#">Resume</a>
+    </nav>
+  </header>
 
-  <main>
-  
-    <div class="container">
-
-      
-      <img src=C:\Users\josep\bootcamp\projects\portfolio\assets\css\Images\blue.jpg
-      width="100%"
-      height="500">
-      <div class="bottom-right">I can't wait to show you what I can do</div>
-      
-      
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2>I can't wait to show you what I can do</h2>
     </div>
+  </section>
 
-   <div class="layout">
-     <section class="about-me">
-      <div class="col">About Me |</div>
-      <ul>
-      <p>I am new to web design but this I am anxious to get started.</p>
-      <p>I hope to one day master the act of coding to change my career.</p>
-    </ul>
-    </section>
-    <section class="work">
-      <header>Work |</header>
-      <div class="background">
-        <img src= C:\Users\josep\bootcamp\projects\portfolio\assets\css\Images\light.jpg alt="light on wall"   
-        width="-1000%"
-        height="500">
-        <div class="bottom-left">This section will is my previous work in the field of web design...</div> 
-      
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>I am new to web design but this I am anxious to get started.</p>
+        <p>I hope to one day master the act of coding to change my career.</p>
       </div>
-      
     </section>
-    <section class="resume">
-      <header>Resume |</header>
-      <p>This section contains my <a href="https://docs.google.com/document/d/1WTB1MkjeEvku3bggNhG4D7eVOnjQITkqQJzKwWlJX20/edit">Resume</a> </p>
-    </section>
-   
 
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="flex-container">
+
+        <a href="#" class="flex-item surf-report">
+          <div>
+            <h3>Surf Report</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+        
+        <a href="https://present-list-fc60525bdd4f.herokuapp.com/profile" class="flex-item led-wall">
+          <div>
+            <h3>Holiday Tracker</h3>
+            <span>Node</span>
+          </div>
+        </a>
+        <a href="#" class="flex-item react-calc">
+          <div>
+            <h3>Calculator</h3>
+            <span>React/JavaScript/CSS</span>
+          </div>
+        </a>
+
+        <a href="#" class="flex-item pastel-puzzles">
+          <div>
+            <h3>Pastel Puzzels</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+
+    
+        <a href="#" class="flex-item run-buddy">
+          <div>
+            <h3>Run Buddy</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+15555555555">555.555.5555</a>
+          <a href="mailto:lernantino@website.com">lernantino@website.com</a>
+          <a href="https://github.com/Josepharo98/portfolio">Github</a>
+          <a href="#">Twitter</a>
+        </address>
+      </div>
+    </section>
   </main>
-  <footer>
-    <h3>Contact Me |</h3>
-    <ul>
-      <a href="#">123.456.7890</a>
-      <a href="#">Josepharo88@gmail.com</a>
-      <a href="https://github.com/Josepharo98/portfolio">Github</a>
-    </ul>
-  </footer>
 </body>
+
 </html>
